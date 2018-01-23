@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69BD4231E95DDAE00237F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4221E95DDAE00237F66 /* AppDelegate.swift */; };
+		F69BD4251E95DDAE00237F66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4241E95DDAE00237F66 /* ViewController.swift */; };
+		F69BD4281E95DDAE00237F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69BD4261E95DDAE00237F66 /* Main.storyboard */; };
+		F69BD42A1E95DDAE00237F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69BD4291E95DDAE00237F66 /* Assets.xcassets */; };
+		F69BD42D1E95DDAE00237F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69BD42B1E95DDAE00237F66 /* LaunchScreen.storyboard */; };
+		F69BD4381E95DDAE00237F66 /* BerriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4371E95DDAE00237F66 /* BerriesTests.swift */; };
+		F69BD4431E95DDAE00237F66 /* BerriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4421E95DDAE00237F66 /* BerriesUITests.swift */; };
+		F69BD4511E95DDCA00237F66 /* BerryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4501E95DDCA00237F66 /* BerryModel.swift */; };
+		F69BD4531E95DE0100237F66 /* BerryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4521E95DE0100237F66 /* BerryTableViewController.swift */; };
+		F69BD4551E95DE1000237F66 /* BerryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4541E95DE1000237F66 /* BerryViewController.swift */; };
+		F69BD4571E95DE2000237F66 /* BerryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BD4561E95DE2000237F66 /* BerryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69BD4341E95DDAE00237F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69BD4171E95DDAE00237F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69BD41E1E95DDAE00237F66;
+			remoteInfo = Berries;
+		};
+		F69BD43F1E95DDAE00237F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69BD4171E95DDAE00237F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69BD41E1E95DDAE00237F66;
+			remoteInfo = Berries;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69BD41F1E95DDAE00237F66 /* Berries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BD4221E95DDAE00237F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F69BD4241E95DDAE00237F66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F69BD4271E95DDAE00237F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69BD4291E95DDAE00237F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69BD42C1E95DDAE00237F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69BD42E1E95DDAE00237F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69BD4331E95DDAE00237F66 /* BerriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BD4371E95DDAE00237F66 /* BerriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerriesTests.swift; sourceTree = "<group>"; };
+		F69BD4391E95DDAE00237F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69BD43E1E95DDAE00237F66 /* BerriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BD4421E95DDAE00237F66 /* BerriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerriesUITests.swift; sourceTree = "<group>"; };
+		F69BD4441E95DDAE00237F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69BD4501E95DDCA00237F66 /* BerryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryModel.swift; sourceTree = "<group>"; };
+		F69BD4521E95DE0100237F66 /* BerryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryTableViewController.swift; sourceTree = "<group>"; };
+		F69BD4541E95DE1000237F66 /* BerryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryViewController.swift; sourceTree = "<group>"; };
+		F69BD4561E95DE2000237F66 /* BerryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BerryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69BD41C1E95DDAE00237F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD4301E95DDAE00237F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD43B1E95DDAE00237F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69BD4161E95DDAE00237F66 = {
+			isa = PBXGroup;
+			children = (
+				F69BD4211E95DDAE00237F66 /* Berries */,
+				F69BD4361E95DDAE00237F66 /* BerriesTests */,
+				F69BD4411E95DDAE00237F66 /* BerriesUITests */,
+				F69BD4201E95DDAE00237F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69BD4201E95DDAE00237F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD41F1E95DDAE00237F66 /* Berries.app */,
+				F69BD4331E95DDAE00237F66 /* BerriesTests.xctest */,
+				F69BD43E1E95DDAE00237F66 /* BerriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69BD4211E95DDAE00237F66 /* Berries */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD4221E95DDAE00237F66 /* AppDelegate.swift */,
+				F69BD4241E95DDAE00237F66 /* ViewController.swift */,
+				F69BD4261E95DDAE00237F66 /* Main.storyboard */,
+				F69BD4501E95DDCA00237F66 /* BerryModel.swift */,
+				F69BD4521E95DE0100237F66 /* BerryTableViewController.swift */,
+				F69BD4541E95DE1000237F66 /* BerryViewController.swift */,
+				F69BD4561E95DE2000237F66 /* BerryTableViewCell.swift */,
+				F69BD4291E95DDAE00237F66 /* Assets.xcassets */,
+				F69BD42B1E95DDAE00237F66 /* LaunchScreen.storyboard */,
+				F69BD42E1E95DDAE00237F66 /* Info.plist */,
+			);
+			path = Berries;
+			sourceTree = "<group>";
+		};
+		F69BD4361E95DDAE00237F66 /* BerriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD4371E95DDAE00237F66 /* BerriesTests.swift */,
+				F69BD4391E95DDAE00237F66 /* Info.plist */,
+			);
+			path = BerriesTests;
+			sourceTree = "<group>";
+		};
+		F69BD4411E95DDAE00237F66 /* BerriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69BD4421E95DDAE00237F66 /* BerriesUITests.swift */,
+				F69BD4441E95DDAE00237F66 /* Info.plist */,
+			);
+			path = BerriesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69BD41E1E95DDAE00237F66 /* Berries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD4471E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "Berries" */;
+			buildPhases = (
+				F69BD41B1E95DDAE00237F66 /* Sources */,
+				F69BD41C1E95DDAE00237F66 /* Frameworks */,
+				F69BD41D1E95DDAE00237F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Berries;
+			productName = Berries;
+			productReference = F69BD41F1E95DDAE00237F66 /* Berries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69BD4321E95DDAE00237F66 /* BerriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD44A1E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "BerriesTests" */;
+			buildPhases = (
+				F69BD42F1E95DDAE00237F66 /* Sources */,
+				F69BD4301E95DDAE00237F66 /* Frameworks */,
+				F69BD4311E95DDAE00237F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69BD4351E95DDAE00237F66 /* PBXTargetDependency */,
+			);
+			name = BerriesTests;
+			productName = BerriesTests;
+			productReference = F69BD4331E95DDAE00237F66 /* BerriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69BD43D1E95DDAE00237F66 /* BerriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69BD44D1E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "BerriesUITests" */;
+			buildPhases = (
+				F69BD43A1E95DDAE00237F66 /* Sources */,
+				F69BD43B1E95DDAE00237F66 /* Frameworks */,
+				F69BD43C1E95DDAE00237F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69BD4401E95DDAE00237F66 /* PBXTargetDependency */,
+			);
+			name = BerriesUITests;
+			productName = BerriesUITests;
+			productReference = F69BD43E1E95DDAE00237F66 /* BerriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69BD4171E95DDAE00237F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kelsey Polosino";
+				TargetAttributes = {
+					F69BD41E1E95DDAE00237F66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F69BD4321E95DDAE00237F66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69BD41E1E95DDAE00237F66;
+					};
+					F69BD43D1E95DDAE00237F66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69BD41E1E95DDAE00237F66;
+					};
+				};
+			};
+			buildConfigurationList = F69BD41A1E95DDAE00237F66 /* Build configuration list for PBXProject "Berries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69BD4161E95DDAE00237F66;
+			productRefGroup = F69BD4201E95DDAE00237F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69BD41E1E95DDAE00237F66 /* Berries */,
+				F69BD4321E95DDAE00237F66 /* BerriesTests */,
+				F69BD43D1E95DDAE00237F66 /* BerriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69BD41D1E95DDAE00237F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD42D1E95DDAE00237F66 /* LaunchScreen.storyboard in Resources */,
+				F69BD42A1E95DDAE00237F66 /* Assets.xcassets in Resources */,
+				F69BD4281E95DDAE00237F66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD4311E95DDAE00237F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD43C1E95DDAE00237F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69BD41B1E95DDAE00237F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD4531E95DE0100237F66 /* BerryTableViewController.swift in Sources */,
+				F69BD4251E95DDAE00237F66 /* ViewController.swift in Sources */,
+				F69BD4231E95DDAE00237F66 /* AppDelegate.swift in Sources */,
+				F69BD4551E95DE1000237F66 /* BerryViewController.swift in Sources */,
+				F69BD4571E95DE2000237F66 /* BerryTableViewCell.swift in Sources */,
+				F69BD4511E95DDCA00237F66 /* BerryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD42F1E95DDAE00237F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD4381E95DDAE00237F66 /* BerriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69BD43A1E95DDAE00237F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69BD4431E95DDAE00237F66 /* BerriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69BD4351E95DDAE00237F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69BD41E1E95DDAE00237F66 /* Berries */;
+			targetProxy = F69BD4341E95DDAE00237F66 /* PBXContainerItemProxy */;
+		};
+		F69BD4401E95DDAE00237F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69BD41E1E95DDAE00237F66 /* Berries */;
+			targetProxy = F69BD43F1E95DDAE00237F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69BD4261E95DDAE00237F66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69BD4271E95DDAE00237F66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69BD42B1E95DDAE00237F66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69BD42C1E95DDAE00237F66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69BD4451E95DDAE00237F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69BD4461E95DDAE00237F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69BD4481E95DDAE00237F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Berries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.Berries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F69BD4491E95DDAE00237F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Berries/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.Berries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F69BD44B1E95DDAE00237F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BerriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.BerriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berries.app/Berries";
+			};
+			name = Debug;
+		};
+		F69BD44C1E95DDAE00237F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BerriesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.BerriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Berries.app/Berries";
+			};
+			name = Release;
+		};
+		F69BD44E1E95DDAE00237F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BerriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.BerriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Berries;
+			};
+			name = Debug;
+		};
+		F69BD44F1E95DDAE00237F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BerriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseypolosino.BerriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Berries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69BD41A1E95DDAE00237F66 /* Build configuration list for PBXProject "Berries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD4451E95DDAE00237F66 /* Debug */,
+				F69BD4461E95DDAE00237F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69BD4471E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "Berries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD4481E95DDAE00237F66 /* Debug */,
+				F69BD4491E95DDAE00237F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69BD44A1E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "BerriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD44B1E95DDAE00237F66 /* Debug */,
+				F69BD44C1E95DDAE00237F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69BD44D1E95DDAE00237F66 /* Build configuration list for PBXNativeTarget "BerriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69BD44E1E95DDAE00237F66 /* Debug */,
+				F69BD44F1E95DDAE00237F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69BD4171E95DDAE00237F66 /* Project object */;
+}
